@@ -1,0 +1,9 @@
+;;; note: auto-compilation is enabled, set GUILE_AUTO_COMPILE=0
+;;;       or pass the --no-auto-compile argument to disable.
+;;; compiling /tmp/CGEN/src/cgen/testsuite/./../guile.scm
+;;; WARNING: compilation of /tmp/CGEN/src/cgen/testsuite/./../guile.scm failed:
+;;; Syntax error:
+;;; unknown location: definition in expression context, where definitions are not allowed, in form (define (eval1 expr) (eval expr (current-module)))
+ice-9/psyntax.scm:2824:12: In procedure syntax-violation:
+Syntax error:
+unknown location: definition in expression context, where definitions are not allowed, in form (define (eval1 expr) (eval expr (current-module)))
